@@ -62,7 +62,7 @@ paascloud:
         port: 8060
         hostname: paascloud-provider-ptc
       uac:
-        port: 8000
+        port: 8001
         hostname: paascloud-provider-uac
     web:
       mall:
