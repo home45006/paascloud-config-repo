@@ -87,10 +87,10 @@ paascloud:
             required: true
   aliyun:
     key:
-      accessKeyId: '{cipher}AQBBQ1qiEAwamP8ObpmdvSoRbL0icdLmkrZ749LxNlumy/sYvTet6Gjo/dRlORut477G5qvESxboKnMJ7UvZXhP6zQ7wwbzusDUrZw1SWZWnMvZXcJeZGV3lmfgk0hGQAI7g/LpiEtkC3PeAHdNic4OrS/wR/rhrT1Uj+M9a6dhfmNCdrDqlHKsFqP1asX8NH/xMs/EYjn+F6hw9vqMD9fc1xJ1FqAWoSTb4Q1JUseN4Kf6GAtBgg2CH7lpNPgh6K1cGAwE9OmMxEvIU4Bmrlt8rJQQJsmbS7EbiPE8AW8dG1fZF+/e6nkLLVjAXUKFJ5YNx0AC2s4iovesxj3Vi4eFAFC2qXKnJwlPUPPEOYwF89a/hlK0jkwQd/VXWXN5gkc2tVRS1Qmw3cJTyhxpn72Rx'
-      accessKeySecret: '{cipher}AQBzt+sRrZs7niVUTsdYNS5BPoSHyHpQ3Kqri2ixuSrgK8KRYmPDaTehwqb7b1FPDqmpyW43ElIbz1b5AirEVnB6KQXjVjwEY9zBFzhgx/QgRCFZd/jTWkfJ5juvghRzY6M1LWcOZXN3WppcsN+cVIJjzlhs5zZv/R13W2z+4Wa6T5+ECdGKfIN713vddH0q00pcSUnjaXmg+OlNhwv+GjphT8DLIDczNMPmQfAJALWr0pkzB+JqM/yqHmkSHb5ZL90SrEu3gPn05JTATWun52WrDyDIHcx9RV+UCVXzvBedeEK1pkGeCqalYRKlL2myqQ2tXt249M/hRrKUKGkYkZcDw9Qfrjy4YOOIUFKZd23hoAdXhSuMaKdT3TmYomvxYzQxXsRXqA9ilRntwlRq6JiS'
+      accessKeyId: '{cipher}AQB3APsK/ob9o+4KW4Blguk3iqw6eU13nr3zDsbCpnrMcKZkK3bV3ZO9Rr4nLa0UclvZ5UXMfy6oVypQ8jQ+b9c4riuxUIpbpPKR+Fk1XxbLHnwLq6g2qP0sgJ5RykSAAKxqck+7jq3bA44sVTKGk/nt+Rl/D4tjR2sLgVF3NITSdNpAcPzyBZ06ySqo5wgT8J5Idpl5qONFv5zXfF4rqm5sMMYcIxgaNmP/VUV2NKafmpsf5rCT3hM6mRqNNsNlq+nKgqO4qmmbG2TtvHf35PWmYEvK0Z/tqKEO8/ZIJN/5s5dWzRf2qwi5q/80X2METBCr9PDF4XzGjkaYzi06ffwnqFdUjXsDre5CL+k8CBTnyBnI9es06xnIBVOckNwrcHCHh7OygYF1M3cbwDdTWEbf'
+      accessKeySecret: '{cipher}AQAvlDtNvnZanj9/NmCNs3tOn2MFKJoX1WL1Xi0FhFuF/p2I58PYrd6Uu2NmuKoQZa2Ot6rLiqL0rGY2dFeeMMwBTBU+oAAZtL+eNTK9XrW7RrZOmZD+jeO8qMHnhcyTaA1SthiG7f3wuAACMVDTD62B9MZyLsuHTLE9K/woXGTNHbt1aTDb/nbML9es8mkCYINL2B4Z45ueFVLsvZttQjMhnbFp6U6WgWRUz9lO6YTqnn1a+aovrFsAJGf/GpAhqz3JdN+ppOQfj6yOJrp2t1BuUqthnrY0nADh3f+JQuM7k9/4lGW3Pny5MkrNnHO5VkhosSytzDB3pZ8I5j+N0e//q1+jkQeGC6OAFv478PHjqgN9mh07/9c2JnCN0D4ChtfPGfSyQM4rWaJTj/Ty3/Y5'
     rocketMq:
-      namesrvAddr: paascloud-mq-rocket:9876
+      namesrvAddr: http://onsaddr-internet.aliyun.com/rocketmq/nsaddr4client-internet
     sms:
       signName: 快乐学习网
       regionId: cn-beijing
